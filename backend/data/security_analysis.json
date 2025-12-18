@@ -1,0 +1,42 @@
+[
+    {
+        "SecurityGroupName": "test-2",
+        "SecurityGroupId": "sg-09688ca96103eadd6",
+        "Protocol": "tcp",
+        "PortRange": "80-80",
+        "OpenTo": "0.0.0.0/0",
+        "Risk": "ALLOWED (80/443)"
+    },
+    {
+        "SecurityGroupName": "test-2",
+        "SecurityGroupId": "sg-09688ca96103eadd6",
+        "Protocol": "tcp",
+        "PortRange": "22-22",
+        "OpenTo": "0.0.0.0/0",
+        "Risk": "HIGH RISK"
+    },
+    {
+        "SecurityGroupName": "test-2",
+        "SecurityGroupId": "sg-09688ca96103eadd6",
+        "Protocol": "tcp",
+        "PortRange": "0-0",
+        "OpenTo": "0.0.0.0/0",
+        "Risk": "HIGH RISK"
+    },
+    {
+        "SecurityGroupName": "test-2",
+        "SecurityGroupId": "sg-09688ca96103eadd6",
+        "Protocol": "icmp",
+        "PortRange": "-1--1",
+        "OpenTo": "0.0.0.0/0",
+        "Risk": "HIGH RISK"
+    },
+    {
+        "SecurityGroupName": "test-o1",
+        "SecurityGroupId": "sg-0ec1972a1a9e013db",
+        "Protocol": "tcp",
+        "PortRange": "80-80",
+        "OpenTo": "0.0.0.0/0",
+        "Risk": "ALLOWED (80/443)"
+    }
+]
